@@ -8,7 +8,7 @@ Team56
 
 - Onur İnce: Product Owner
 - Oğuz Cengiz: Scrum Master
-- Rümeyse Negiş: Team Member/Developer
+- Rümeysa Negiş: Team Member/Developer
 - Melih Korkmaz: Team Member/Developer
 - Büşra Nur Kut: Team Member/Developer
 
