@@ -45,7 +45,13 @@ https://miro.com/app/board/uXjVO261r08=/?share_link_id=398605474681
 
 - **Backlog düzeni ve Story seçimleri**: Puan mantığı görevlerin işyüküne göre hesaplandı.Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.
 
-- **Daily Scrum**: 
+- **Daily Scrum**: ![daily scrum1](https://user-images.githubusercontent.com/74148901/167481602-b6dc500f-8ee2-48ed-b345-548eea939df6.png)
+![daily scrum2](https://user-images.githubusercontent.com/74148901/167481608-30404cb4-d2f4-413d-ad3c-b322d3b0d035.png)
+![daily scrum3](https://user-images.githubusercontent.com/74148901/167481610-4b0dc827-d414-4631-bbf7-065daa068d63.png)
+![daily scrum4](https://user-images.githubusercontent.com/74148901/167481615-79331375-15b1-4733-bb14-d7aeaf1aa3e3.png)
+![daily scrum5](https://user-images.githubusercontent.com/74148901/167481616-783f3c89-741d-43c3-ba16-0a670121c3ab.png)
+![daily scrum6](https://user-images.githubusercontent.com/74148901/167481618-239a64ef-9c77-41db-9d31-a60a3c5a6e10.png)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![1 sprint-1](https://user-images.githubusercontent.com/103571825/167445984-a3b6b9b5-202c-4c72-bb70-da8fd812be73.jpg)
