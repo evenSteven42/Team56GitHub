@@ -67,11 +67,12 @@ https://miro.com/app/board/uXjVO261r08=/?share_link_id=398605474681
 
 
 - **Sprint Review**: 
-Alınan kararlar:  
-Sprint Review katılımcıları: ......
+Alınan kararlar: Ürün fikri konusunda ortak bir karara varıldı ve skeçlerle somutlaştırıldı. Fikrin ana çıkış noktası olan karakter mekaniği yazıldı ve oynanabilr hale getirildi. 1. Sprintte bayram tatili ve bireysel meşguliyetler sebebiyle hedeflerin gerisinde kalındı.
+Sprint Review katılımcıları: Onur İnce, Oğuz Cengiz, Melih Korkmaz, Rümeysa Negiş, Büşra Nur Kut
 
 - **Sprint Retrospective:**
-  - .....
+  - 1.Sprintteki planlamada herhangi bir değişiklik yapılmamıştır ancak 1. sprintte hedeflerin gerisinde kalınması nedeniyle görevler tekrar belirlenecek ve daha yoğun bir çalışma planı oluşturulacaktır.
+  - Backloglar tekrar gözden geçirelecek ve puanlama sistemi projenin tamamı göz önünde bulundurularak tekrar düzenlenecektir.
 
 -**Diğer Notlar**:
 - N/A
