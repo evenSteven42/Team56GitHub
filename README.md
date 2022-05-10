@@ -62,6 +62,8 @@ https://miro.com/app/board/uXjVO261r08=/?share_link_id=398605474681
 
 
 - **Ürün Durumu**: Oyun için karakter mekanikleri yazıldı ancak henüz animasyon veya bir UI eklenmedi.Henüz deneme sahnesinde.
+![1](https://user-images.githubusercontent.com/71657838/167723334-e64de912-869e-44ab-9473-2094ea99735a.png)
+![2](https://user-images.githubusercontent.com/71657838/167723343-cf7d9eb0-0bdc-4627-b33b-9c0d1787c65e.png)
 
 
 - **Sprint Review**: 
