@@ -5,56 +5,70 @@ using UnityEngine;
 
 public class Charactercontroller : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f;
-    [SerializeField] private float jump = 300f;
+    [SerializeField] private float speed;
+    [SerializeField] private float jump;
     public GameObject playerBodyPrefab;
     private GameObject playerBody;
-    private bool canJump;
+    private bool grounded;
     private Rigidbody2D _rb;
+    private Animator _animator;
+    private SpriteRenderer _sprite;
     public bool isGhost = false;
+    
 
-    private void Awake()
+    private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _sprite = GetComponent<SpriteRenderer>();
+    }
+
+private void FixedUpdate()
+    {
+        
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        
+        float horizontalInput = Input.GetAxis("Horizontal");
+        _rb.velocity = new Vector2(horizontalInput * speed,_rb.velocity.y);
+        
+        if (Input.GetKeyDown(KeyCode.W) && grounded)
             jumpFunc();
         if (Input.GetKeyDown(KeyCode.Space))
             ghostMode();
+
+            _animator.SetBool("walk", horizontalInput != 0);
+            _animator.SetBool("grounded", grounded);
+
+            if (horizontalInput > 0.01f)
+            {
+                _sprite.flipX = false;
+            }
+            else if (horizontalInput < -0.01)
+            {
+                _sprite.flipX = true;
+            }
     }
 
-    private void FixedUpdate()
-    {
-        _rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed,_rb.velocity.y);
-    }
 
     private void jumpFunc()
     {
-        if (canJump)
-        {
-            _rb.AddForce(new Vector2(0,jump));
-        }
+        _rb.velocity = new Vector2(_rb.velocity.x, jump);
+        _animator.SetTrigger("jump");
+        grounded = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Zemin")
         {
-            canJump = true;
+            grounded = true;
         } 
     }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Zemin")
-        {
-            canJump = false;
-        } 
-    }
-
+    
     private void ghostMode()
     {
         if (!isGhost)
