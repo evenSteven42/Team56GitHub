@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Charactercontroller : MonoBehaviour
 {
@@ -21,11 +22,6 @@ public class Charactercontroller : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
-    }
-
-private void FixedUpdate()
-    {
-        
     }
 
     private void Update()
@@ -89,4 +85,6 @@ private void FixedUpdate()
     {
         playerBody = Instantiate(playerBodyPrefab, v, Quaternion.identity);
     }
+
+   
 }
