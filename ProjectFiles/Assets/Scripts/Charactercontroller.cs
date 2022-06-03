@@ -79,6 +79,12 @@ public class Charactercontroller : MonoBehaviour
             Destroy(playerBody);
             isGhost = false;
         }
+
+       //space'e basınca tag değişimi//
+        if (isGhost)
+        { 
+            transform.gameObject.tag = "Ghost";
+        }
     }
 
     private void spawnBody(Vector3 v)
