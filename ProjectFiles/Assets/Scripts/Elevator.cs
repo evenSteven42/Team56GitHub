@@ -31,4 +31,14 @@ public class Elevator : MonoBehaviour
                 yellow = true;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        collision.transform.SetParent(transform);
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        collision.transform.SetParent(null);
+    }
 }
