@@ -81,10 +81,15 @@ public class Charactercontroller : MonoBehaviour
         }
 
        //space'e basınca tag değişimi//
-        if (isGhost)
-        { 
-            transform.gameObject.tag = "Ghost";
-        }
+       if (isGhost)
+       {
+           transform.gameObject.tag = "Ghost";
+       }
+       else
+       {
+           transform.gameObject.tag = "Player";
+           
+       }
     }
 
     private void spawnBody(Vector3 v)
