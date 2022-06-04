@@ -501,6 +501,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+  m_UseDelaunayMesh: 0
 --- !u!1 &243061213
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,11 +2009,13 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1152238415
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7234143298708514600, guid: cebdd65697f483f40863cc2a00d4227f, type: 3}
@@ -2064,6 +2067,7 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cebdd65697f483f40863cc2a00d4227f, type: 3}
 --- !u!1 &1848938626
 GameObject:
@@ -2321,6 +2325,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8940024178077648840, guid: 6ef7873a5cb16de4a82b876fcddb6165, type: 3}
@@ -2372,6 +2377,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ef7873a5cb16de4a82b876fcddb6165, type: 3}
 --- !u!1 &2097658255
 GameObject:
