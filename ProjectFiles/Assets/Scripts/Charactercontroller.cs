@@ -15,6 +15,8 @@ public class Charactercontroller : MonoBehaviour
     private Animator _animator;
     private SpriteRenderer _sprite;
     public bool isGhost = false;
+    [SerializeField] private AudioSource jumpSoundEffect;
+   
     
 
     private void Start()
@@ -51,6 +53,7 @@ public class Charactercontroller : MonoBehaviour
 
     private void jumpFunc()
     {
+        jumpSoundEffect.Play();
         _rb.velocity = new Vector2(_rb.velocity.x, jump);
         _animator.SetTrigger("jump");
         grounded = false;

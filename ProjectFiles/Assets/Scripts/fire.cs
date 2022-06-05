@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Spike : MonoBehaviour
+public class fire : MonoBehaviour
 {
 
 private Scene _scene;
@@ -15,11 +15,10 @@ private void Awake()
 
 private void OnTriggerEnter2D(Collider2D other)
 {
-    if(other.gameObject.CompareTag("Player"))
+    if (other.gameObject.CompareTag("Ghost"))
     {
 
         SceneManager.LoadScene(_scene.name);
     }
 }
-
 }
