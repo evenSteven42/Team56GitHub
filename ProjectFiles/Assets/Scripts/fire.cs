@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,7 @@ private void Awake()
     _scene = SceneManager.GetActiveScene();
 }
 
-private void OnTriggerEnter2D(Collider2D other)
+private void OnTriggerStay2D(Collider2D other)
 {
     if (other.gameObject.CompareTag("Ghost"))
     {
@@ -21,4 +22,5 @@ private void OnTriggerEnter2D(Collider2D other)
         SceneManager.LoadScene(_scene.name);
     }
 }
+
 }
