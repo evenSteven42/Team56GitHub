@@ -7,6 +7,8 @@ public class NextLevel : MonoBehaviour
 {
 
 private Scene _scene;
+[SerializeField] private AudioSource nextLevelSoundEffect;
+
 
 private void Awake()
 {

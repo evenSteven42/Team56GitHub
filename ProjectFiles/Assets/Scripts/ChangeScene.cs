@@ -9,7 +9,7 @@ public class ChangeScene : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("FirstScene");
+        SceneManager.LoadScene(1);
     }
 
     public void PauseButton()

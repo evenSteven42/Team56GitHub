@@ -16,6 +16,7 @@ public class Charactercontroller : MonoBehaviour
     private SpriteRenderer _sprite;
     public bool isGhost = false;
     [SerializeField] private AudioSource jumpSoundEffect;
+
    
     
 
@@ -66,6 +67,9 @@ public class Charactercontroller : MonoBehaviour
             grounded = true;
         } 
     }
+
+    
+ 
 
     
     private void ghostMode()
