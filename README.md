@@ -100,6 +100,10 @@ Sprint Review katılımcıları: Onur İnce, Oğuz Cengiz, Melih Korkmaz, Rümey
 - **Sprint board update**: 
 
 - **Ürün Durumu**: 
+![1](https://user-images.githubusercontent.com/71657838/172203117-c8f387d7-16ae-4a7b-8406-fa08b0e1b0ad.png)
+![2](https://user-images.githubusercontent.com/71657838/172203147-3ec5b935-16c9-46fa-9774-f1063107a032.png)
+![3](https://user-images.githubusercontent.com/71657838/172203157-0e0c039d-f85b-4ec5-9700-9446a0461f8d.png)
+
 
 
 - **Sprint Review**: 
