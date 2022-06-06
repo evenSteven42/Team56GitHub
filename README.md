@@ -85,5 +85,28 @@ Sprint Review katılımcıları: Onur İnce, Oğuz Cengiz, Melih Korkmaz, Rümey
 ---
 
 # Sprint 3
+- **Sprint Notları**: 
 
----
+- **Sprint içinde tamamlanması tahmin edilen puan**: 
+
+- **Puan tamamlama mantığı**: 
+
+- **Backlog düzeni ve Story seçimleri**: 
+
+- **Daily Scrum**: 
+
+
+
+- **Sprint board update**: 
+
+- **Ürün Durumu**: 
+
+
+- **Sprint Review**: 
+
+
+- **Sprint Retrospective:**
+  - 
+
+-**Diğer Notlar**:
+- 
